@@ -68,6 +68,7 @@ const VideoUpload = ({ videos }) => {
           onSubmit={uploadSubmit}
         >
           <div className="video-input">
+            <p>The file size must be less than 1MB.</p>
             <input
               type="file"
               name="video"
