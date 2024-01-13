@@ -1,0 +1,44 @@
+.subtitle-form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.title-heading {
+  text-align: center;
+  padding-top: 20px;
+
+  padding-bottom: 20px;
+}
+
+.subtitle-text1 {
+  width: 400px;
+  height: 44px;
+  margin-bottom: 20px;
+  padding: 20px;
+}
+
+.subtitle-text {
+  width: 200px;
+  height: 10px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+
+  padding: 10px;
+}
+
+.subtitle-button {
+  border: none;
+  background-color: tomato;
+  color: white;
+  font: 300 0.9vmax "Roboto";
+  width: 200px;
+  padding: 0.8vmax;
+  cursor: pointer;
+  transition: all 0.5s;
+  border-radius: 4px;
+  outline: none;
+  margin-bottom: 40px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.219);
+}

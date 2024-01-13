@@ -1,0 +1,63 @@
+.video-heading1 {
+  text-align: center;
+  padding-top: 20px;
+}
+
+.uploadBtn {
+  border: none;
+  background-color: tomato;
+  color: white;
+  font: 300 0.9vmax "Roboto";
+  width: 200px;
+  padding: 0.8vmax;
+  cursor: pointer;
+  transition: all 0.5s;
+  border-radius: 4px;
+  outline: none;
+  margin-top: 20px;
+
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.219);
+}
+
+.upload {
+  margin-top: 30px;
+  margin-bottom: 40px;
+}
+
+input[type="file"]::file-selector-button {
+  margin-right: 20px;
+  border: none;
+  background: #084cdf;
+  padding: 10px 20px;
+  border-radius: 10px;
+  color: #fff;
+  cursor: pointer;
+
+  transition: background 0.2s ease-in-out;
+}
+
+input[type="file"]::file-selector-button:hover {
+  background: #0d45a5;
+}
+
+.video-input {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 2px dashed #555;
+  display: flex;
+  align-items: left;
+  justify-content: left;
+  padding: 25px 10px;
+  left: 50%; /* Center horizontally */
+  margin-left: 38%;
+  width: 300px;
+}
+
+.instruction {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  padding-top: 20px;
+}

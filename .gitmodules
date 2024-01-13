@@ -1,0 +1,3 @@
+[submodule "backend"]
+	path = backend
+	url = https://github.com/Kashifraza1208/video-subtitle-app.git/
